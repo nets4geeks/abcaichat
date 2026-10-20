@@ -1,0 +1,30 @@
+
+url: http://127.0.0.1:11434
+key: "None"
+
+chatPath: api/chat
+tagsPath: api/tags
+
+think: False
+thinkShow: False
+
+#model: gemma4:e4b
+model: gemma4:31b
+temperature: 0.8
+
+log: False
+
+init: "chat.j2"
+
+chatTemplate: "chatTemplate.j2"
+infoTemplate: "infoTemplate.j2"
+hintTemplate: "hintTemplate.j2"
+extraTemplate: "extraTemplate.j2"
+sendTemplate: "sendTemplate.j2"
+helpTemplate: "helpTemplate.j2"
+
+cache: "cache"
+saves: "saves"
+
+ttsEngine: "google"
+slang: "us"

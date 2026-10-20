@@ -1,0 +1,10 @@
+
+... {{ config['model'] }} #{{ config['currentResponseNum'] }} in {{ config['total_duration'] }} s ...
+(prompt {{ config['prompt_eval_count'] }}/{{ config['promptTokens'] }} tkns | response {{ config['eval_count'] }}/{{ config['tokens'] }} tkns; {{ config['eval_duration'] }} s; {{ config['speed'] }} tkns/s)
+{% if config['currentThinking'] is defined %}
+... ,,,,,,,,,,,,,,,,,,,,, ...
+{{ config['currentThinking'] }}
+... ,,,,,,,,,,,,,,,,,,,,, ...
+{% endif %}
+{{ config['currentResponse'] }}
+

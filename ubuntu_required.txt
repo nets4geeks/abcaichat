@@ -1,0 +1,8 @@
+sudo apt-get install python3-pip
+sudo apt-get install python3.12-venv
+sudo apt-get install pulseaudio pulseaudio-utils alsa-utils libasound2-plugins
+sudo apt-get install espeak-ng ffmpeg alsa-utils
+sudo apt-get install espeak mbrola mbrola-en1
+sudo apt-get install python3-dev
+sudo apt-get install portaudio19-dev
+sudo apt-get install mpg123
